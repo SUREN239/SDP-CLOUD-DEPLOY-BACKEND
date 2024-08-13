@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/SDE-App-Backend-0.0.1-SNAPSHOT.jar
+COPY --from=build /target/SDE-App-Backend-0.0.1-SNAPSHOT.jar staffapp.jar
 EXPOSE 7770
-ENTRYPOINT ["java","-jar","quizapp.jar"]
+ENTRYPOINT ["java","-jar","staffapp.jar"]
