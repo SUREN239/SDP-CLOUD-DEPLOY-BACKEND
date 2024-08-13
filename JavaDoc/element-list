@@ -1,0 +1,10 @@
+com.kenny.sdeappbackend
+com.kenny.sdeappbackend.auth
+com.kenny.sdeappbackend.config
+com.kenny.sdeappbackend.controller
+com.kenny.sdeappbackend.dto
+com.kenny.sdeappbackend.enums
+com.kenny.sdeappbackend.exception
+com.kenny.sdeappbackend.model
+com.kenny.sdeappbackend.repo
+com.kenny.sdeappbackend.service
